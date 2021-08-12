@@ -1,0 +1,38 @@
+{
+  "name": "fragment-for-vue",
+  "version": "1.0.0",
+  "description": "Fragment component for Vue 2 and 3",
+  "author": "Ambit Tsai <ambit_tsai@qq.com>",
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "node --trace-warnings scripts/build.js",
+    "publish": "npm publish dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ambit-tsai/fragment-for-vue.git"
+  },
+  "homepage": "https://github.com/ambit-tsai/fragment-for-vue#readme",
+  "bugs": {
+    "url": "https://github.com/ambit-tsai/fragment-for-vue/issues"
+  },
+  "peerDependencies": {
+    "vue": ">=2.5"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^8.2.5",
+    "rollup": "^2.56.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "tslib": "^2.3.1",
+    "typescript": "^4.3.5",
+    "vue": "^3.2.2"
+  },
+  "keywords": [
+    "fragment",
+    "vue",
+    "vue3",
+    "vue-fragment",
+    "vue-fragments"
+  ]
+}
