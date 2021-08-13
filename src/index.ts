@@ -33,6 +33,7 @@ function createDocumentFragment(vnode: VNode) {
     defineProperty(fragment, '_children', {
         get: () => vnode.children,
     })
+    fragment.tagName = ''
     fragment.setAttribute = newSetAttribute
     fragment.style = fragmentStyle
     defineProperty(fragment, 'nextSibling', descOfNextSibling)
@@ -135,6 +136,7 @@ interface VNode {
 interface CustomDocumentFragment extends DocumentFragment {
     __vue__?: unknown
     _children: VNode[]
+    tagName: ''
     setAttribute(name: string, value: string): void
     style: Record<string, unknown>
 }
