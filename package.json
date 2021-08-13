@@ -1,6 +1,6 @@
 {
   "name": "fragment-for-vue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fragment component for Vue 2 and 3",
   "author": "Ambit Tsai <ambit_tsai@qq.com>",
   "license": "Apache-2.0",
