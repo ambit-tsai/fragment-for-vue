@@ -9,6 +9,7 @@ Provide multi-root support in Vue 2, and able to work in Vue 3.
 |Vue Devtools|✅|❎|
 |Directive `v-for`|✅|❎|
 |Directive `v-if`|✅|❎|
+|TypeScript|✅|✅|
 
 
 ## ⬇️ Install
