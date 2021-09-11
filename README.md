@@ -54,10 +54,10 @@ Vue.use(FragmentPlugin)
 + import { Fragment } from 'fragment-for-vue/vue3'
 ```
 ```javascript
-import Vue from 'vue'
+import { createApp } from 'vue'
 import { FragmentPlugin } from 'fragment-for-vue/vue3'
 
-Vue.use(FragmentPlugin)
+createApp(/*...*/).use(FragmentPlugin)
 ```
 
 
